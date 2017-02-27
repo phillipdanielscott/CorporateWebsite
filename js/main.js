@@ -5,7 +5,7 @@ $(document).ready(function() {
     $('#slider-carousel').carouFredSel({
 
         responsive: true,
-        // width: '100%',
+        width: '100%',
         circular: true,
         scroll: {
             items: 1,
@@ -27,10 +27,30 @@ $(document).ready(function() {
         }
     });
 
+    // $('.portfolio-carousel').carouFredSel({
+    //
+    //     responsive: true,
+    //     // width: '50%',
+    //     circular: true,
+    //     scroll: {
+    //         items: 1,
+    //         duration: 500,
+    //         pauseOnHover: true
+    //     },
+    //     auto: true,
+    //     items: {
+    //         width: "100",
+    //         visibile: {
+    //             min: 1,
+    //             max: 1
+    //         },
+    //         height: "variable"
+    //     },
+    // })
     $('.portfolio-carousel').carouFredSel({
 
         responsive: true,
-        // width: '100%',
+        width: '100%',
         circular: true,
         scroll: {
             items: 1,
@@ -39,15 +59,14 @@ $(document).ready(function() {
         },
         auto: true,
         items: {
-            // width: 900,
-            // width: "100%",
-            visibile: {
+            visible: {
                 min: 1,
                 max: 4
             },
             height: "variable"
-        },
-    })
+        }
+
+    });
 
     // console.log("is this even working?")
 
