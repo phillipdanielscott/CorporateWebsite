@@ -125,13 +125,11 @@ header nav ul li a:hover, header nav ul li a:focus {
 
 .portfolio .inner-content {
     position: relative;
-    width: 265px;
-    height: 225px;
 }
 
 .portfolio .inner-content img {
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 .portfolio .inner-content .overlay-content {
@@ -139,7 +137,7 @@ header nav ul li a:hover, header nav ul li a:focus {
     top: 100%;
     left: 0px;
     text-align: center;
-    background: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     width: 100%;
     height: 100%;
     transition: all 0.3s ease-in;
@@ -148,6 +146,32 @@ header nav ul li a:hover, header nav ul li a:focus {
     -o-transition: all 0.3s ease-in;
 }
 
-.testing {
-    width: 200px;
+.portfolio .inner-content .overlay-content h3, .portfolio .inner-content .overlay-content p {
+    color: #fff;
+}
+
+.portfolio .inner-content .overlay-content h3 {
+    padding-top: 20%;
+    color: #e74c3c;
+}
+
+.portfolio .inner-content:hover .overlay-content {
+    top: 0px;
+}
+
+.portfolio .inner-content .overlay-content p a {
+    color: #2d82d8;
+    font-weight: bold;
+}
+
+.portfolio .portfolio-nav {
+    text-align: center;
+}
+
+.portfolio .portfolio-nav li {
+    cursor: pointer;
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #333;
+    color: #fff;
 }
