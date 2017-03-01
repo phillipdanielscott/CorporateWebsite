@@ -340,6 +340,13 @@ ul.member-social-links li i.fa-linkedin {
     color: #fff;
 }
 
+.testimonials {
+    color: #fff;
+    background: url('img/testi-bg.png');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
 .testimonial-carousel li {
     text-align: center;
     margin: 0 200px;
@@ -366,7 +373,7 @@ ul.member-social-links li i.fa-linkedin {
 }
 
 #noBorder:after {
-    position: fixed;
+    position: absolute;
     content: "\f10e";
     bottom: -5px;
     right: -20px;
@@ -386,4 +393,24 @@ ul.member-social-links li i.fa-linkedin {
 
 .testimonials ul.sliderpager li.selected a {
     color: #e74c3c;
+}
+
+.testimonial-carousel li img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.testimonial-carousel li p.name {
+    color: #e74c3c;
+    font-weight: bold;
+}
+
+.testimonial-carousel li p.position {
+    font-weight: bold;
+    margin-bottom: 30px;
 }
