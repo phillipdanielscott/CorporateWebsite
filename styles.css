@@ -11,6 +11,10 @@ header a.logo {
     float: left;
 }
 
+#creativeLogo {
+    line-height: 61px;
+}
+
 header nav {
     float: right;
     font-weight: bold;
@@ -113,7 +117,7 @@ header nav ul li a:hover, header nav ul li a:focus {
     color: #555;
 }
 
-.service-header, .portfolio-header, .team-header, .testimonials-header {
+.service-header, .portfolio-header, .team-header, .testimonials-header, .blog-header, .contact-header {
     margin-bottom: 42px;
     text-align: center;
 }
@@ -413,4 +417,22 @@ ul.member-social-links li i.fa-linkedin {
 .testimonial-carousel li p.position {
     font-weight: bold;
     margin-bottom: 30px;
+}
+
+
+/***** blog styles ***/
+
+.blog b.date {
+    color: #333;
+}
+
+.blog h3 a {
+    transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    -moz-transition: all 0.3s ease-in;
+    -o-transition: all 0.3s ease-in;
+}
+
+.blog h3 a:hover {
+    color: #e74c3c;
 }
