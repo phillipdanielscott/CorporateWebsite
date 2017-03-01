@@ -27,26 +27,6 @@ $(document).ready(function() {
         }
     });
 
-    // $('.portfolio-carousel').carouFredSel({
-    //
-    //     responsive: true,
-    //     // width: '50%',
-    //     circular: true,
-    //     scroll: {
-    //         items: 1,
-    //         duration: 500,
-    //         pauseOnHover: true
-    //     },
-    //     auto: true,
-    //     items: {
-    //         width: "100",
-    //         visibile: {
-    //             min: 1,
-    //             max: 1
-    //         },
-    //         height: "variable"
-    //     },
-    // })
     $('.portfolio-carousel').carouFredSel({
 
         responsive: true,
@@ -70,7 +50,55 @@ $(document).ready(function() {
 
     });
 
-    // console.log("is this even working?")
+    $('.team-carousel').carouFredSel({
+
+        responsive: true,
+        width: '100%',
+        circular: true,
+        prev: '#team-prev',
+        next: '#team-next',
+        scroll: {
+            items: 1,
+            duration: 500,
+            pauseOnHover: true
+        },
+        auto: true,
+        items: {
+            visible: {
+                min: 1,
+                max: 4
+            },
+            height: "variable"
+        }
+
+    });
+
+    $('.testimonial-carousel').carouFredSel({
+
+        responsive: true,
+        width: '100%',
+        circular: true,
+        scroll: {
+            items: 1,
+            duration: 500,
+            pauseOnHover: true
+        },
+        auto: true,
+        items: {
+            // width: "100%",
+            visibile: {
+                min: 1,
+                max: 1
+            },
+            height: "variable"
+        },
+        pagination: {
+            container: ".sliderpager",
+            anchorBuilder: false
+        }
+    });
+
+
 
     $(window).scroll(function() {
 
