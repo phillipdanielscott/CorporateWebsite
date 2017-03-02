@@ -110,7 +110,18 @@ $(document).ready(function() {
             $("header").removeClass('secondary-dark-blue-bg');
 
         }
+    });
+
+    $('#menu').slicknav({
+        label: '',
+
     })
+
+
+
+
+
+
 
 
 
