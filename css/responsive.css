@@ -66,8 +66,33 @@
         width: 200px;
         height: 180px;
     }
+    .portfolio .inner-content img {
+        margin: 10px;
+    }
     .portfolio .portfolio-nav li {
         margin-right: 0px;
+    }
+    .portfolio-carousel li {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    /** team responsive style **/
+    .team-carousel h3 {
+        font-size: 14px;
+    }
+    .team .inner-content {
+        width: 200px;
+        height: 180px;
+    }
+    .team li p {
+        font-size: 12px;
+    }
+    .team-carousel li {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .team-carousel p.description {
+        display: none;
     }
 }
 
@@ -75,6 +100,7 @@
     #portfolio {
         background: none;
         background-color: #eca535;
+        padding: 10px 0;
     }
     .portfolio-carousel h3 {
         font-size: 12px;
@@ -83,11 +109,41 @@
         width: 180px;
         height: 150px;
     }
-    .portfolio .portfolio-nav li {
+    /**** team responsive style **/
+    /*.team {
+        background: none;
+        background-color: #eca535;
+    }*/
+    .team-carousel h3 {
+        font-size: 12px;
+    }
+    .team .inner-content {
+        width: 180px;
+        height: 150px;
+    }
+    .team .team-nav li {
         margin-right: 0px;
     }
-    .portfolio .portfolio-nav li p {
+    .team li p {
         font-size: 12px;
+    }
+    .team-carousel li {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .team-carousel p.description {
+        display: none;
+    }
+    /** responsive testimonial section **/
+    .testimonial-carousel li {
+        margin: 0 100px;
+    }
+    #testimonalSection {
+        background: #0B1622;
+        padding: 10px 0;
+    }
+    .testmonials .section-padding .slider {
+        padding: 10px 0;
     }
 }
 
@@ -98,6 +154,12 @@
     .slider ul.slider-carousel li h1 {
         margin-top: 70px;
         margin-bottom: 30px;
+    }
+    .testimonial-carousel li {
+        margin: 0 50px;
+    }
+    #testimonalSection {
+        background-color: #0B1622;
     }
 }
 
