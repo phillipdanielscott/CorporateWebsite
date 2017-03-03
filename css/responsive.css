@@ -54,6 +54,41 @@
         margin-top: 100px;
         margin-bottom: 30px;
     }
+    /*/////responsive portfolio styles //////*/
+    #portfolio {
+        background: none;
+        background-color: #eca535;
+    }
+    .portfolio-carousel h3 {
+        font-size: 14px;
+    }
+    .portfolio .inner-content {
+        width: 200px;
+        height: 180px;
+    }
+    .portfolio .portfolio-nav li {
+        margin-right: 0px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #portfolio {
+        background: none;
+        background-color: #eca535;
+    }
+    .portfolio-carousel h3 {
+        font-size: 12px;
+    }
+    .portfolio .inner-content {
+        width: 180px;
+        height: 150px;
+    }
+    .portfolio .portfolio-nav li {
+        margin-right: 0px;
+    }
+    .portfolio .portfolio-nav li p {
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width: 550px) {
