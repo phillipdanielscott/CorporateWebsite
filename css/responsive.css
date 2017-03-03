@@ -100,6 +100,18 @@
     .blog img {
         margin: 0 auto;
     }
+    /** contact form **/
+    form.contact-form {
+        width: 60%;
+    }
+    #contact {
+        background: none;
+        background-color: #38787c;
+    }
+    /** footer responsive style **/
+    footer {
+        text-align: center;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -163,6 +175,12 @@
     #testimonalSection {
         background-color: #0B1622;
     }
+    form .contact-form {
+        width: 80%;
+    }
+    .contact {
+        background-image: none;
+    }
 }
 
 @media screen and (max-width: 420px) {
@@ -177,4 +195,7 @@
         margin-bottom: 30px;
         font-size: 30px;
     }
+}
+
+
 }
