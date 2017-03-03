@@ -94,6 +94,12 @@
     .team-carousel p.description {
         display: none;
     }
+    .blog {
+        text-align: center;
+    }
+    .blog img {
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 800px) {
@@ -110,10 +116,6 @@
         height: 150px;
     }
     /**** team responsive style **/
-    /*.team {
-        background: none;
-        background-color: #eca535;
-    }*/
     .team-carousel h3 {
         font-size: 12px;
     }
