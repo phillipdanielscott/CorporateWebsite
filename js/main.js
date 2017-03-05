@@ -104,10 +104,10 @@ $(document).ready(function() {
 
         var top = $(window).scrollTop();
         if (top >= 60) {
-            $("header").addClass('secondary-dark-blue-bg');
+            $("header").addClass('menuRed');
         } else
-        if ($("header").hasClass('secondary-dark-blue-bg')) {
-            $("header").removeClass('secondary-dark-blue-bg');
+        if ($("header").hasClass('menuRed')) {
+            $("header").removeClass('menuRed');
 
         }
     });
@@ -122,6 +122,19 @@ $(document).ready(function() {
     $('#main').stellar();
 
     console.log("this is the end of the code man");
+
+
+    $('.animation').each(function() {
+        var waypoint = new Waypoint({
+            element: this,
+            handler: function(direction) {
+                var animation = $(this.element).attr('data-animation');
+                $(this.element).css('opacity', '1');
+                $(this.element).addClass('animated' + animation);
+            },
+            offset: '75%'
+        })
+    })
 
 
 
