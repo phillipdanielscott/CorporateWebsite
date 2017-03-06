@@ -82,6 +82,11 @@ header nav ul li a:hover, header nav ul li a:focus {
     background-size: 100% 100%;
 }
 
+.img3 {
+    background: url(img/slider/insideOffice.jpg);
+    background-size: 100% 100%;
+}
+
 .slider ul.slider-carousel li a.cta1:hover {
     background-color: #ff695a;
     border-radius: 5px;
