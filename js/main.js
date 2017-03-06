@@ -129,8 +129,8 @@ $(document).ready(function() {
             element: this,
             handler: function(direction) {
                 var animation = $(this.element).attr('data-animation');
-                $(this.element).css('opacity', '1');
-                $(this.element).addClass('animated' + animation);
+                $(this.element).css('opacity', '0');
+                $(this.element).addClass('animated ' + animation);
             },
             offset: '75%'
         })

@@ -73,7 +73,12 @@ header nav ul li a:hover, header nav ul li a:focus {
 }
 
 .img1 {
-    background: url(img/slider/slider1.png);
+    background: url(img/slider/creativestudios.jpg);
+    background-size: 100% 100%;
+}
+
+.img2 {
+    background: url(img/slider/weCreate.jpg);
     background-size: 100% 100%;
 }
 
@@ -115,6 +120,10 @@ header nav ul li a:hover, header nav ul li a:focus {
 .services .services-content i {
     font-size: 32px;
     color: #555;
+}
+
+.services-header p {
+    margin-bottom: 60px;
 }
 
 .service-header, .portfolio-header, .team-header, .testimonials-header, .blog-header, .contact-header {
