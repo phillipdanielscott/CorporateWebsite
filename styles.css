@@ -108,7 +108,7 @@ header nav ul li a:hover, header nav ul li a:focus {
 }
 
 .slider ul.sliderpager li a {
-    color: #34495e;
+    color: #fff;
 }
 
 .slider ul.sliderpager li.selected a {
@@ -141,6 +141,15 @@ header nav ul li a:hover, header nav ul li a:focus {
     background: url('img/portfolio/portfolio-bg.png');
     background-attachment: fixed;
     background-size: 100% 100%;
+}
+
+.services {
+    color: #fff;
+    background: #34495E;
+}
+
+.services h1, h3 {
+    color: #fff;
 }
 
 .portfolio .inner-content {
