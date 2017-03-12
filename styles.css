@@ -33,7 +33,7 @@ header nav ul li a {
 }
 
 header nav ul li a:hover, header nav ul li a:focus {
-    color: #e74c3c;
+    color: #384923;
     text-decoration: none;
 }
 
@@ -138,18 +138,23 @@ header nav ul li a:hover, header nav ul li a:focus {
 
 .portfolio {
     color: #fff;
-    background: url('img/portfolio/portfolio-bg.png');
+    /*background: url('img/portfolio/portfolio-bg.png');*/
+    background: url('img/work-bg.png');
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: 50%;
 }
 
 .services {
-    color: #fff;
-    background: #34495E;
+    color: #daad86;
+    background: #feffff;
 }
 
-.services h1, h3 {
-    color: #fff;
+.services h3 {
+    color: #212121;
+}
+
+.services p {
+    color: #757575;
 }
 
 .portfolio .inner-content {
