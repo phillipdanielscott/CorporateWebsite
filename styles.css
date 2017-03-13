@@ -146,7 +146,10 @@ header nav ul li a:hover, header nav ul li a:focus {
 
 .services {
     color: #daad86;
-    background: #feffff;
+    /*background: #feffff;*/
+    background: url("img/back_pattern.png");
+    /*background-attachment: fixed;*/
+    background-size: ;
 }
 
 .services h3 {
@@ -224,7 +227,7 @@ header nav ul li a:hover, header nav ul li a:focus {
 }
 
 .portfolio .portfolio-nav li:hover {
-    background-color: #e74c3c;
+    background-color: #689F38;
 }
 
 .portfolio-carousel li {
@@ -238,6 +241,14 @@ header nav ul li a:hover, header nav ul li a:focus {
 
 
 /*** team section ****/
+
+.team {
+    color: #757575;
+    /*background: #feffff;*/
+    background: url("img/back_pattern.png");
+    /*background-attachment: fixed;*/
+    background-size: ;
+}
 
 .team .inner-content {
     position: relative;
@@ -453,6 +464,14 @@ ul.member-social-links li i.fa-linkedin {
 
 /***** blog styles ***/
 
+.blog {
+    color: #757575;
+    /*background: #feffff;*/
+    background: url("img/back_pattern.png");
+    /*background-attachment: fixed;*/
+    background-size: ;
+}
+
 .blog b.date {
     color: #333;
 }
@@ -465,7 +484,11 @@ ul.member-social-links li i.fa-linkedin {
 }
 
 .blog h3 a:hover {
-    color: #e74c3c;
+    color: #8BC24A;
+}
+
+.blog h3 a {
+    color: #212121;
 }
 
 
@@ -548,7 +571,7 @@ form.update-input:not([type=submit]), textarea {
 }
 
 #submit-button {
-    background-color: #e74c3c;
+    background-color: #8BC24A;
     color: #fff;
     border: none;
     padding: 5px 20px;
@@ -593,6 +616,12 @@ form.update-input:not([type=submit]), textarea {
 
 footer p span.primary {
     padding-left: 0px;
+}
+
+footer {
+    background: url("img/geometry.png");
+    /*background-attachment: fixed;*/
+    background-size: %;
 }
 
 .copyright p {
