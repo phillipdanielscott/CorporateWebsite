@@ -108,11 +108,11 @@ header nav ul li a:hover, header nav ul li a:focus {
 }
 
 .slider ul.sliderpager li a {
-    color: #fff;
+    color: #DCEDC8;
 }
 
 .slider ul.sliderpager li.selected a {
-    color: #e74c3c;
+    color: #689F38;
 }
 
 
@@ -307,7 +307,7 @@ header nav ul li a:hover, header nav ul li a:focus {
 }
 
 .team .team-nav li:hover {
-    background-color: #e74c3c;
+    background-color: #689F38;
 }
 
 .team-carousel li {
@@ -423,11 +423,11 @@ ul.member-social-links li i.fa-linkedin {
 }
 
 .testimonials ul.sliderpager li a {
-    color: #34495e;
+    color: #DCEDC8;
 }
 
 .testimonials ul.sliderpager li.selected a {
-    color: #e74c3c;
+    color: #689F38;
 }
 
 .testimonial-carousel li img {
