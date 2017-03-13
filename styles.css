@@ -88,7 +88,7 @@ header nav ul li a:hover, header nav ul li a:focus {
 }
 
 .slider ul.slider-carousel li a.cta1:hover {
-    background-color: #ff695a;
+    background-color: #8BC34A;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -441,7 +441,7 @@ ul.member-social-links li i.fa-linkedin {
 }
 
 .testimonial-carousel li p.name {
-    color: #e74c3c;
+    color: #8BC34A;
     font-weight: bold;
 }
 
