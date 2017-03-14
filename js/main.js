@@ -134,9 +134,9 @@ $(document).ready(function() {
             },
             offset: '75%'
         })
-    })
+    });
 
 
-
+    $('a').smoothScroll();
 
 });
