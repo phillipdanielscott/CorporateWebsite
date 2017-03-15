@@ -619,9 +619,9 @@ footer p span.primary {
 }
 
 footer {
-    background: url("img/geometry.png");
+    background: url("img/back_pattern.png");
     /*background-attachment: fixed;*/
-    background-size: %;
+    background-size: ;
 }
 
 .copyright p {
