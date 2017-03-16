@@ -121,7 +121,7 @@ $(document).ready(function() {
 
     $('#main').stellar();
 
-    console.log("this is the end of the code man");
+    console.log("all the sliders are loaded");
 
 
     $('.animation').each(function() {
